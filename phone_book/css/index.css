@@ -1,0 +1,54 @@
+.phonebook li{
+	width: 300px;
+	height: 50px;
+	background-color: #5BC0DE;
+	color: #FFF5F6;
+	border: 1px solid #5BC0DE;
+	border-radius: 15px 15px 15px 15px !important;
+	box-shadow: 4px 4px 15px #5BC0DE; 
+	padding: 5px !important;
+	line-height: 40px;
+	padding-left: 10px;
+	font-family: Areal;
+	font-size: 18px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.phonebook li:hover {
+	background-color: #00AADE;
+	border: 1.5px solid #009FD0;
+	color: #FFF5F6 !important;
+	text-decoration: none !important;
+}
+li{
+	text-decoration: none;
+	position: fixed;
+}
+li a{
+	text-decoration: none !important;
+	color: #FFF5F6;
+	padding-left: 10px;
+}
+
+.phonebook li> .glyphicon-pencil{
+	float: right;
+	padding: 5px;
+	display: inline-block;
+	color: #FFF5F6;
+	
+}
+.phonebook li> .glyphicon-remove{
+	float: right;
+	padding: 5px;
+	display: inline-block;
+	color: #FFF5F6;
+} 
+.phonebook li>a:hover{
+	color: #FFF5F6;
+}
+.phonebook li> .glyphicon-pencil:hover{
+	color: #008552;
+}
+.phonebook li> .glyphicon-remove:hover{
+	color: #F30065;
+}
